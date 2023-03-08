@@ -1,0 +1,141 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: #1f1f1f;
+	color: white;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #73268A;
+	padding: 10px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px; 
+}
+
+.senderdown {
+	float: right;
+	text-align: left;
+	width: 30%;
+	margin-top: 5%;
+	line-height: 200%;
+}
+
+.senderup {
+	float: right;
+	text-align: left;
+	width: 40%;
+	margin-top: 2%;
+	margin-right: 2%;
+	line-height: 200%;
+}
+
+nav {
+	background-color: #4d4d4d;
+	display: block;
+	padding: 10px;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	padding: 2% 4%;
+}
+
+nav a {
+	padding: 10px;
+	border: 1px solid #343434;
+	border-radius: 10px;
+	color: white;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+nav a:hover {
+	box-shadow: 5px 5px 5px black;
+}
+
+main {
+	display: inline-block;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.thanoshome {
+	max-width: 60%;
+	margin: 0%;
+	border: 30px solid #4d4d4d;
+	float: left;
+}
+
+.deathsake {
+	margin: 0%;
+	border: 30px solid #4d4d4d;
+	float: left;
+}
+
+.titan {
+	margin: 7% 0% 7% 5%;
+	border: 30px solid #4d4d4d;
+	float: left;
+}
+
+.bigtarget {
+	margin: 0%;
+	border: 30px solid #4d4d4d;
+	float: left;
+}
+
+.newsletter {
+	margin: 0%;
+	border: 30px solid #4d4d4d;
+	float: left;
+	margin-bottom: 10%;
+}
+
+.btn {
+	background-color: white;
+	border: 1px solid black;
+	margin-top: 2%;
+}
+
+.btn2 {
+	color: white;
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 2% 2% 0;
+	padding: 1% 2%;
+}
+
+footer {
+	background-color: #73268A;
+	color: white;
+	text-align: right;
+	border-top: 10px solid #4d4d4d;
+}
+
+footer .copyright {
+	margin: 40px 2px 0 2px;
+	padding: 1%;
+}
+
+footer .lastupdated {
+	padding: 1%;
+}
